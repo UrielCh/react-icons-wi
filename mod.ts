@@ -25,19 +25,27 @@
  * 
  * ## Direct import sample
  * 
- * `import { WiAlien } from "https://deno.land/x/react_icons_wi@1.0.1/mod.ts"`
+ * ```ts
+ * import { WiAlien } from "https://deno.land/x/react_icons_wi@1.0.1/mod.ts"
+ * ```
  * 
  * ## import_map import sample
  * 
- * `import { WiAlien } from "react-icons/wi"`
+ * ```ts
+ * import { WiAlien } from "react-icons/wi"
+ * ```
  * 
  * ## minimal import
  * 
- * `import { WiAlien } from "react-icons/wi/WiAlien.ts"`
+ * ```ts
+ * import { WiAlien } from "react-icons/wi/WiAlien.ts"
+ * ```
  * 
- * ## minimal import default
+ * ## minimal import using default export
  * 
- * `import WiAlien from "react-icons/wi/WiAlien.ts"`
+ * ```ts
+ * import WiAlien from "react-icons/wi/WiAlien.ts"
+ * ```
  * 
  * @module
  */
