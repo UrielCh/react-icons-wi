@@ -44,7 +44,7 @@
  * or using default export
  * 
  * ```ts
- * import WiAlien from "react-icons/wi/WiAlien.ts"
+ * import WiAlien from "react-icons/wi/WiAlien"
  * ```
  * @module
  * 
