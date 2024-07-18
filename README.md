@@ -8,39 +8,56 @@
 
 [See available icons here](https://react-icons.deno.dev/wi)
 
-## import_map.json
+## install packahe
 
-For a transparent usage:
-
-```json
-{
-  "imports": {
-    "@preact-icons/common": "jsr:@preact-icons/common@^1.0.10",
-    "preact": "npm:preact@10.22.1",
-    "preact/jsx-runtime": "npm:preact@10.22.1/jsx-runtime",
-    "preact/hooks": "npm:preact@10.22.1/hooks",
-    "react-icons/wi": "jsr:@preact-icons/wi@^1.0.11/mod.ts",
-    "react-icons/wi/": "jsr:@preact-icons/wi@^1.0.11/ico/",
-  }
-}
+```bash
+deno add @preact-icons/wi
+dnpx jsr add @preact-icons/wi
+pnpm dlx jsr add @preact-icons/wi
+bunx jsr add @preact-icons/wi
 ```
 
-## Import an icon without import_map by and afer loading all icons from the lib wi
+You may need to update your preact mapping to:
+ - "preact": "npm:preact@10.22.1",
+ - "preact/jsx-runtime": "npm:preact@10.22.1/jsx-runtime",
+ - "preact/hooks": "npm:preact@10.22.1/hooks",
 
-```ts
-import { WiAlien } from "jsr:preact-icons/wi@1.0.11/mod.ts"
+
+# Weather Icons icons for preact
+
+[![JSR](https://jsr.io/badges/@preact-icons/wi)](https://jsr.io/@preact-icons/wi)
+
+**License** [SIL OFL 1.1](http://scripts.sil.org/OFL)
+
+**Project** [https://erikflowers.github.io/weather-icons/](https://erikflowers.github.io/weather-icons/)
+
+[See available icons here](https://react-icons.deno.dev/wi)
+
+## install packahe
+
+```bash
+deno add @preact-icons/wi
+dnpx jsr add @preact-icons/wi
+pnpm dlx jsr add @preact-icons/wi
+bunx jsr add @preact-icons/wi
 ```
 
-## import_map import an icon from all icons
+You may need to update your preact mapping to:
+ - "preact": "npm:preact@10.22.1",
+ - "preact/jsx-runtime": "npm:preact@10.22.1/jsx-runtime",
+ - "preact/hooks": "npm:preact@10.22.1/hooks",
+
+
+## import an icon from all icons
 
 ```ts
-import { WiAlien } from "react-icons/wi"
+import { WiAlien } from "@preact-icons/wi"
 ```
 
 ## import a single icon, downloading just one icon
 
 ```ts
-import { WiAlien } from "react-icons/wi/WiAlien.ts"
+import { WiAlien } from "react-icons/wi/WiAlien"
 ```
 
 or using default export
